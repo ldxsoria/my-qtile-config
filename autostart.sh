@@ -18,6 +18,7 @@ cbatticon -u 5 &
 nitrogen --restore &
 
 optimus-manager-qt &
-	sh .screenlayout/pantallas_trabajo.sh
+
+sh .screenlayout/pantallas_trabajo.sh
 
 caffeine -a
