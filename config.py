@@ -104,7 +104,7 @@ keys = [
 
 #Listado de iconos nerd fonts: https://www.nerdfonts.com/cheat-sheet
 #1 - nf-linux-archlinux
-#2 - nf-fa-chrome
+#2 - nf-fa-firefox
 #3 - nf-dev-terminal
 #7 - nf-fa-desktop
 #4 - nf-custom-folder_open
@@ -113,7 +113,7 @@ keys = [
 #8 - nf-fa-hashtag
 
 groups = [Group(i) for i in [
-    "  ","  ","  ","  ","  ","  ","  ","  "
+    "  ","  ","  ","  ","  ","  ","  ","  "
 ]]
 
 for i, group in enumerate(groups):
