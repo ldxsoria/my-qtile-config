@@ -17,9 +17,7 @@ def autostart():
 
 mod = "mod4"
 terminal = guess_terminal()
-colorBarra="#4B4847"
-#colorBarra="#263238"
-#colorBarra="#17202A"
+colorBarra="#4B4847.0"
 
 keys = [
     # A list of available commands that can be bound to keys can be found
@@ -179,6 +177,7 @@ screens = [
             ],
             40,
             background=colorBarra,
+            # opacity=0.2,
             # border_width=[2, 0, 2, 0],  # Draw top and bottom borders
             # border_color=["ff00ff", "000000", "ff00ff", "000000"]  # Borders are magenta
         ),

@@ -22,3 +22,6 @@ optimus-manager-qt &
 sh .screenlayout/pantallas_trabajo.sh
 
 caffeine -a
+
+#Si da error picom: picom --no-vsync &
+picom &
